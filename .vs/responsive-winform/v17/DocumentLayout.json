@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\",
+  "WorkspaceRootPath": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timla\\documents\\projects\\responsive-winform\\responsive-winform\\responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timla\\documents\\projects\\responsive-winform\\responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timla\\documents\\projects\\responsive-winform\\responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,15 +18,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
+              "RelativeDocumentMoniker": "responsive-winform\\Form1.vb",
+              "ToolTip": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
+              "RelativeToolTip": "responsive-winform\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T03:10:21.968Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
               "RelativeDocumentMoniker": "responsive-winform\\Form1.vb",
-              "ToolTip": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform\\Form1.vb [Design]",
+              "ToolTip": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb [Design]",
               "RelativeToolTip": "responsive-winform\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2024-03-06T07:08:45.949Z",
