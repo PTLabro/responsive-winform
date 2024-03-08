@@ -22,18 +22,26 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         sidePanel = New Panel()
         Button2 = New Button()
         Button1 = New Button()
-        Button1Panel = New Panel()
+        MenuPanel = New Panel()
         SubMenu3 = New Button()
         SubMenu2 = New Button()
         SubMenu1 = New Button()
         Menu1 = New Button()
         Home = New Button()
         Panel1 = New Panel()
+        PictureBox1 = New PictureBox()
+        mainChildForm = New Panel()
+        PictureBox2 = New PictureBox()
         sidePanel.SuspendLayout()
-        Button1Panel.SuspendLayout()
+        MenuPanel.SuspendLayout()
+        Panel1.SuspendLayout()
+        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        mainChildForm.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' sidePanel
@@ -42,7 +50,7 @@ Partial Class Form1
         sidePanel.BackColor = Color.FromArgb(CByte(237), CByte(28), CByte(36))
         sidePanel.Controls.Add(Button2)
         sidePanel.Controls.Add(Button1)
-        sidePanel.Controls.Add(Button1Panel)
+        sidePanel.Controls.Add(MenuPanel)
         sidePanel.Controls.Add(Menu1)
         sidePanel.Controls.Add(Home)
         sidePanel.Controls.Add(Panel1)
@@ -82,17 +90,17 @@ Partial Class Form1
         Button1.TextAlign = ContentAlignment.MiddleLeft
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' Button1Panel
+        ' MenuPanel
         ' 
-        Button1Panel.BackColor = Color.White
-        Button1Panel.Controls.Add(SubMenu3)
-        Button1Panel.Controls.Add(SubMenu2)
-        Button1Panel.Controls.Add(SubMenu1)
-        Button1Panel.Dock = DockStyle.Top
-        Button1Panel.Location = New Point(0, 215)
-        Button1Panel.Name = "Button1Panel"
-        Button1Panel.Size = New Size(250, 124)
-        Button1Panel.TabIndex = 3
+        MenuPanel.BackColor = Color.White
+        MenuPanel.Controls.Add(SubMenu3)
+        MenuPanel.Controls.Add(SubMenu2)
+        MenuPanel.Controls.Add(SubMenu1)
+        MenuPanel.Dock = DockStyle.Top
+        MenuPanel.Location = New Point(0, 215)
+        MenuPanel.Name = "MenuPanel"
+        MenuPanel.Size = New Size(250, 124)
+        MenuPanel.TabIndex = 3
         ' 
         ' SubMenu3
         ' 
@@ -159,6 +167,7 @@ Partial Class Form1
         ' 
         ' Home
         ' 
+        Home.BackColor = Color.FromArgb(CByte(237), CByte(28), CByte(36))
         Home.Dock = DockStyle.Top
         Home.FlatAppearance.BorderSize = 0
         Home.FlatStyle = FlatStyle.Flat
@@ -170,40 +179,79 @@ Partial Class Form1
         Home.TabIndex = 1
         Home.Text = "Home"
         Home.TextAlign = ContentAlignment.MiddleLeft
-        Home.UseVisualStyleBackColor = True
+        Home.UseVisualStyleBackColor = False
         ' 
         ' Panel1
         ' 
+        Panel1.Controls.Add(PictureBox1)
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(250, 125)
         Panel1.TabIndex = 0
         ' 
+        ' PictureBox1
+        ' 
+        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Location = New Point(62, 28)
+        PictureBox1.Name = "PictureBox1"
+        PictureBox1.Size = New Size(120, 62)
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox1.TabIndex = 0
+        PictureBox1.TabStop = False
+        ' 
+        ' mainChildForm
+        ' 
+        mainChildForm.Controls.Add(PictureBox2)
+        mainChildForm.Dock = DockStyle.Fill
+        mainChildForm.Location = New Point(250, 0)
+        mainChildForm.Name = "mainChildForm"
+        mainChildForm.Size = New Size(732, 653)
+        mainChildForm.TabIndex = 1
+        ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.Anchor = AnchorStyles.None
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(218, 180)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(300, 300)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 0
+        PictureBox2.TabStop = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(9F, 23F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(982, 653)
+        Controls.Add(mainChildForm)
         Controls.Add(sidePanel)
         Font = New Font("Segoe UI", 10F)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Form1"
         sidePanel.ResumeLayout(False)
-        Button1Panel.ResumeLayout(False)
+        MenuPanel.ResumeLayout(False)
+        Panel1.ResumeLayout(False)
+        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        mainChildForm.ResumeLayout(False)
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents sidePanel As Panel
     Friend WithEvents Home As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button1Panel As Panel
+    Friend WithEvents MenuPanel As Panel
     Friend WithEvents SubMenu3 As Button
     Friend WithEvents SubMenu2 As Button
     Friend WithEvents SubMenu1 As Button
     Friend WithEvents Menu1 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents mainChildForm As Panel
+    Friend WithEvents PictureBox2 As PictureBox
 
 End Class
