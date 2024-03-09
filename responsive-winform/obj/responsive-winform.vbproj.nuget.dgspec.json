@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj": {}
+    "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj": {
+    "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj",
+        "projectUniqueName": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj",
         "projectName": "responsive-winform",
-        "projectPath": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj",
-        "packagesPath": "C:\\Users\\timla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timla\\Documents\\Projects\\responsive-winform\\responsive-winform\\obj\\",
+        "projectPath": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\responsive-winform.vbproj",
+        "packagesPath": "C:\\Users\\Timothee\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\timla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Timothee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+Partial Class Home
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,48 +22,33 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New ComponentModel.Container()
-        ContextMenuStrip1 = New ContextMenuStrip(components)
-        Panel1 = New Panel()
-        Label1 = New Label()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
+        PictureBox2 = New PictureBox()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
-        ' ContextMenuStrip1
+        ' PictureBox2
         ' 
-        ContextMenuStrip1.Name = "ContextMenuStrip1"
-        ContextMenuStrip1.Size = New Size(61, 4)
+        PictureBox2.Anchor = AnchorStyles.None
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(108, 111)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(200, 200)
+        PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
+        PictureBox2.TabIndex = 1
+        PictureBox2.TabStop = False
         ' 
-        ' Panel1
-        ' 
-        Panel1.Location = New Point(12, 42)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(393, 164)
-        Panel1.TabIndex = 1
-        ' 
-        ' Label1
-        ' 
-        Label1.AutoSize = True
-        Label1.Location = New Point(12, 9)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(44, 15)
-        Label1.TabIndex = 2
-        Label1.Text = "Form 2"
-        ' 
-        ' Form2
+        ' Home
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(417, 422)
-        Controls.Add(Label1)
-        Controls.Add(Panel1)
-        Margin = New Padding(3, 2, 3, 2)
-        Name = "Form2"
-        Text = "Form2"
+        Controls.Add(PictureBox2)
+        Name = "Home"
+        Text = "Home"
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
-    Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("responsive-winform"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+909eaee56a624b9c7756eeeb8b15c21742989519"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ea84d6c4fa42836c3dd42290553a9c8e7b06321"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("responsive-winform"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("responsive-winform"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

@@ -43,4 +43,16 @@
         childForm.BringToFront()
         childForm.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        openChildForm(New Form2())
+    End Sub
+
+    Private Sub Home_Click(sender As Object, e As EventArgs) Handles Home.Click
+        openChildForm(New Home())
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        openChildForm(New Form3())
+    End Sub
 End Class

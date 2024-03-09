@@ -57,7 +57,7 @@ Partial Class Form1
         sidePanel.Dock = DockStyle.Left
         sidePanel.Location = New Point(0, 0)
         sidePanel.Name = "sidePanel"
-        sidePanel.Size = New Size(250, 653)
+        sidePanel.Size = New Size(201, 461)
         sidePanel.TabIndex = 0
         ' 
         ' Button2
@@ -66,10 +66,10 @@ Partial Class Form1
         Button2.FlatAppearance.BorderSize = 0
         Button2.FlatStyle = FlatStyle.Flat
         Button2.ForeColor = Color.White
-        Button2.Location = New Point(0, 384)
+        Button2.Location = New Point(0, 335)
         Button2.Name = "Button2"
         Button2.Padding = New Padding(10, 0, 0, 0)
-        Button2.Size = New Size(250, 45)
+        Button2.Size = New Size(201, 35)
         Button2.TabIndex = 5
         Button2.Text = "Button2"
         Button2.TextAlign = ContentAlignment.MiddleLeft
@@ -81,10 +81,10 @@ Partial Class Form1
         Button1.FlatAppearance.BorderSize = 0
         Button1.FlatStyle = FlatStyle.Flat
         Button1.ForeColor = Color.White
-        Button1.Location = New Point(0, 339)
+        Button1.Location = New Point(0, 300)
         Button1.Name = "Button1"
         Button1.Padding = New Padding(10, 0, 0, 0)
-        Button1.Size = New Size(250, 45)
+        Button1.Size = New Size(201, 35)
         Button1.TabIndex = 4
         Button1.Text = "Button1"
         Button1.TextAlign = ContentAlignment.MiddleLeft
@@ -97,22 +97,22 @@ Partial Class Form1
         MenuPanel.Controls.Add(SubMenu2)
         MenuPanel.Controls.Add(SubMenu1)
         MenuPanel.Dock = DockStyle.Top
-        MenuPanel.Location = New Point(0, 215)
+        MenuPanel.Location = New Point(0, 195)
         MenuPanel.Name = "MenuPanel"
-        MenuPanel.Size = New Size(250, 124)
+        MenuPanel.Size = New Size(201, 105)
         MenuPanel.TabIndex = 3
         ' 
         ' SubMenu3
         ' 
-        SubMenu3.BackColor = Color.Silver
+        SubMenu3.BackColor = Color.LightGray
         SubMenu3.Dock = DockStyle.Top
         SubMenu3.FlatAppearance.BorderSize = 0
         SubMenu3.FlatStyle = FlatStyle.Flat
-        SubMenu3.ForeColor = Color.White
-        SubMenu3.Location = New Point(0, 80)
+        SubMenu3.ForeColor = Color.Black
+        SubMenu3.Location = New Point(0, 70)
         SubMenu3.Name = "SubMenu3"
         SubMenu3.Padding = New Padding(35, 0, 0, 0)
-        SubMenu3.Size = New Size(250, 40)
+        SubMenu3.Size = New Size(201, 35)
         SubMenu3.TabIndex = 2
         SubMenu3.Text = "SubMenu3"
         SubMenu3.TextAlign = ContentAlignment.MiddleLeft
@@ -120,15 +120,15 @@ Partial Class Form1
         ' 
         ' SubMenu2
         ' 
-        SubMenu2.BackColor = Color.Silver
+        SubMenu2.BackColor = Color.LightGray
         SubMenu2.Dock = DockStyle.Top
         SubMenu2.FlatAppearance.BorderSize = 0
         SubMenu2.FlatStyle = FlatStyle.Flat
-        SubMenu2.ForeColor = Color.White
-        SubMenu2.Location = New Point(0, 40)
+        SubMenu2.ForeColor = Color.Black
+        SubMenu2.Location = New Point(0, 35)
         SubMenu2.Name = "SubMenu2"
         SubMenu2.Padding = New Padding(35, 0, 0, 0)
-        SubMenu2.Size = New Size(250, 40)
+        SubMenu2.Size = New Size(201, 35)
         SubMenu2.TabIndex = 1
         SubMenu2.Text = "SubMenu2"
         SubMenu2.TextAlign = ContentAlignment.MiddleLeft
@@ -136,15 +136,15 @@ Partial Class Form1
         ' 
         ' SubMenu1
         ' 
-        SubMenu1.BackColor = Color.Silver
+        SubMenu1.BackColor = Color.LightGray
         SubMenu1.Dock = DockStyle.Top
         SubMenu1.FlatAppearance.BorderSize = 0
         SubMenu1.FlatStyle = FlatStyle.Flat
-        SubMenu1.ForeColor = Color.White
+        SubMenu1.ForeColor = Color.Black
         SubMenu1.Location = New Point(0, 0)
         SubMenu1.Name = "SubMenu1"
         SubMenu1.Padding = New Padding(35, 0, 0, 0)
-        SubMenu1.Size = New Size(250, 40)
+        SubMenu1.Size = New Size(201, 35)
         SubMenu1.TabIndex = 0
         SubMenu1.Text = "SubMenu1"
         SubMenu1.TextAlign = ContentAlignment.MiddleLeft
@@ -156,10 +156,10 @@ Partial Class Form1
         Menu1.FlatAppearance.BorderSize = 0
         Menu1.FlatStyle = FlatStyle.Flat
         Menu1.ForeColor = Color.White
-        Menu1.Location = New Point(0, 170)
+        Menu1.Location = New Point(0, 160)
         Menu1.Name = "Menu1"
         Menu1.Padding = New Padding(10, 0, 0, 0)
-        Menu1.Size = New Size(250, 45)
+        Menu1.Size = New Size(201, 35)
         Menu1.TabIndex = 2
         Menu1.Text = "Menu1"
         Menu1.TextAlign = ContentAlignment.MiddleLeft
@@ -175,7 +175,7 @@ Partial Class Form1
         Home.Location = New Point(0, 125)
         Home.Name = "Home"
         Home.Padding = New Padding(10, 0, 0, 0)
-        Home.Size = New Size(250, 45)
+        Home.Size = New Size(201, 35)
         Home.TabIndex = 1
         Home.Text = "Home"
         Home.TextAlign = ContentAlignment.MiddleLeft
@@ -187,15 +187,15 @@ Partial Class Form1
         Panel1.Dock = DockStyle.Top
         Panel1.Location = New Point(0, 0)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(250, 125)
+        Panel1.Size = New Size(201, 125)
         Panel1.TabIndex = 0
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
-        PictureBox1.Location = New Point(62, 28)
+        PictureBox1.Location = New Point(48, 36)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(120, 62)
+        PictureBox1.Size = New Size(95, 50)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -204,27 +204,27 @@ Partial Class Form1
         ' 
         mainChildForm.Controls.Add(PictureBox2)
         mainChildForm.Dock = DockStyle.Fill
-        mainChildForm.Location = New Point(250, 0)
+        mainChildForm.Location = New Point(201, 0)
         mainChildForm.Name = "mainChildForm"
-        mainChildForm.Size = New Size(732, 653)
+        mainChildForm.Size = New Size(433, 461)
         mainChildForm.TabIndex = 1
         ' 
         ' PictureBox2
         ' 
         PictureBox2.Anchor = AnchorStyles.None
         PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
-        PictureBox2.Location = New Point(218, 180)
+        PictureBox2.Location = New Point(116, 130)
         PictureBox2.Name = "PictureBox2"
-        PictureBox2.Size = New Size(300, 300)
+        PictureBox2.Size = New Size(200, 200)
         PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
         PictureBox2.TabIndex = 0
         PictureBox2.TabStop = False
         ' 
         ' Form1
         ' 
-        AutoScaleDimensions = New SizeF(9F, 23F)
+        AutoScaleDimensions = New SizeF(7F, 17F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(982, 653)
+        ClientSize = New Size(634, 461)
         Controls.Add(mainChildForm)
         Controls.Add(sidePanel)
         Font = New Font("Segoe UI", 10F)

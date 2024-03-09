@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = responsive_winform
-build_property.ProjectDir = C:\Users\timla\Documents\Projects\responsive-winform\responsive-winform\
+build_property.ProjectDir = C:\Users\Timothee\Documents\Projects\responsive-winform\responsive-winform\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
