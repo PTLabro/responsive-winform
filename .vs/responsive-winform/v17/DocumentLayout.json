@@ -3,15 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timothee\\documents\\projects\\responsive-winform\\responsive-winform\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timothee\\documents\\projects\\responsive-winform\\responsive-winform\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timothee\\documents\\projects\\responsive-winform\\responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -19,8 +11,16 @@
       "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|c:\\users\\timothee\\documents\\projects\\responsive-winform\\responsive-winform\\home.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\home.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\home.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{5EFB040D-336E-4035-9AAF-6728FDF1FDF1}|responsive-winform\\responsive-winform.vbproj|solutionrelative:responsive-winform\\form3.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
               "RelativeDocumentMoniker": "responsive-winform\\Form1.vb",
@@ -47,52 +47,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
+              "RelativeDocumentMoniker": "responsive-winform\\Form1.vb",
+              "ToolTip": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
+              "RelativeToolTip": "responsive-winform\\Form1.vb",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAnwEwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T03:10:21.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form3.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form3.vb",
               "RelativeDocumentMoniker": "responsive-winform\\Form3.vb",
               "ToolTip": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form3.vb [Design]",
               "RelativeToolTip": "responsive-winform\\Form3.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-09T18:41:50.392Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-09T18:41:50.392Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Home.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Home.vb",
               "RelativeDocumentMoniker": "responsive-winform\\Home.vb",
               "ToolTip": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Home.vb [Design]",
               "RelativeToolTip": "responsive-winform\\Home.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-09T18:30:20.934Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-09T18:30:20.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
-              "RelativeDocumentMoniker": "responsive-winform\\Form1.vb",
-              "ToolTip": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form1.vb",
-              "RelativeToolTip": "responsive-winform\\Form1.vb",
-              "ViewState": "AQIAACwAAAAAAAAAAAAnwDcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-07T03:10:21.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form2.vb [Design]",
               "DocumentMoniker": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form2.vb",
               "RelativeDocumentMoniker": "responsive-winform\\Form2.vb",
               "ToolTip": "C:\\Users\\Timothee\\Documents\\Projects\\responsive-winform\\responsive-winform\\Form2.vb [Design]",
               "RelativeToolTip": "responsive-winform\\Form2.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-03-08T08:44:00.112Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-08T08:44:00.112Z"
             }
           ]
         }
