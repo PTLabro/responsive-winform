@@ -44,6 +44,8 @@ Partial Class Form1
         PictureBox3 = New PictureBox()
         PictureBox1 = New PictureBox()
         mainChildForm = New Panel()
+        PictureBox6 = New PictureBox()
+        PictureBox5 = New PictureBox()
         PictureBox2 = New PictureBox()
         sidePanel.SuspendLayout()
         MenuPanel2.SuspendLayout()
@@ -54,6 +56,8 @@ Partial Class Form1
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         mainChildForm.SuspendLayout()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -347,11 +351,33 @@ Partial Class Form1
         ' 
         ' mainChildForm
         ' 
+        mainChildForm.Controls.Add(PictureBox6)
+        mainChildForm.Controls.Add(PictureBox5)
         mainChildForm.Controls.Add(PictureBox2)
+        mainChildForm.Dock = DockStyle.Fill
         mainChildForm.Location = New Point(201, 0)
         mainChildForm.Name = "mainChildForm"
         mainChildForm.Size = New Size(433, 461)
         mainChildForm.TabIndex = 1
+        ' 
+        ' PictureBox6
+        ' 
+        PictureBox6.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
+        PictureBox6.Location = New Point(299, 351)
+        PictureBox6.Name = "PictureBox6"
+        PictureBox6.Size = New Size(134, 110)
+        PictureBox6.TabIndex = 2
+        PictureBox6.TabStop = False
+        ' 
+        ' PictureBox5
+        ' 
+        PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
+        PictureBox5.Location = New Point(0, 0)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New Size(134, 110)
+        PictureBox5.TabIndex = 1
+        PictureBox5.TabStop = False
         ' 
         ' PictureBox2
         ' 
@@ -373,6 +399,7 @@ Partial Class Form1
         Controls.Add(sidePanel)
         Font = New Font("Segoe UI", 10F)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
+        MinimumSize = New Size(650, 400)
         Name = "Form1"
         StartPosition = FormStartPosition.CenterScreen
         Text = "City of Taguig"
@@ -385,6 +412,8 @@ Partial Class Form1
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         mainChildForm.ResumeLayout(False)
+        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
@@ -411,5 +440,7 @@ Partial Class Form1
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
 
 End Class

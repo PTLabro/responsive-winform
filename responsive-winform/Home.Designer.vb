@@ -24,7 +24,11 @@ Partial Class Home
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
         PictureBox2 = New PictureBox()
+        PictureBox5 = New PictureBox()
+        PictureBox6 = New PictureBox()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox2
@@ -38,17 +42,42 @@ Partial Class Home
         PictureBox2.TabIndex = 1
         PictureBox2.TabStop = False
         ' 
+        ' PictureBox5
+        ' 
+        PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
+        PictureBox5.Location = New Point(0, 0)
+        PictureBox5.Name = "PictureBox5"
+        PictureBox5.Size = New Size(134, 110)
+        PictureBox5.TabIndex = 2
+        PictureBox5.TabStop = False
+        ' 
+        ' PictureBox6
+        ' 
+        PictureBox6.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
+        PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
+        PictureBox6.Location = New Point(283, 312)
+        PictureBox6.Name = "PictureBox6"
+        PictureBox6.Size = New Size(134, 110)
+        PictureBox6.TabIndex = 3
+        PictureBox6.TabStop = False
+        ' 
         ' Home
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(417, 422)
+        Controls.Add(PictureBox6)
+        Controls.Add(PictureBox5)
         Controls.Add(PictureBox2)
         Name = "Home"
         Text = "Home"
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox5, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox6, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
 
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
 End Class
